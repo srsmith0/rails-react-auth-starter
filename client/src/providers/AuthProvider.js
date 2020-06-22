@@ -33,7 +33,7 @@ export default class AuthProvider extends React.Component {
     axios.delete("/api/auth/sign_out")
     .then((res) => {
       this.setState({ user: null });
-      history.push("/")
+      history.push("/login")
     }).catch((err) => {
       console.log(err)
       alert("Logout Failed")
