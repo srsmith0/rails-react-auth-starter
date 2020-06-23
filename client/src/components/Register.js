@@ -7,7 +7,7 @@ class Register extends React.Component {
 
   handleSubmit = (e) => {
     const { email, password, passwordConfirmation } = this.state;
-    const { auth: { handleRegister}, history } = this.props;
+    const { auth: { handleRegister }, history } = this.props;
 
     if (password === passwordConfirmation)
     handleRegister({email, password, passwordConfirmation }, history);
@@ -31,6 +31,7 @@ class Register extends React.Component {
           label='Email'
           autoFocus
           required
+          type='email'
           name='email'
           value={email}
           placeholder='Email'
@@ -40,6 +41,7 @@ class Register extends React.Component {
           label='Password'
           required
           name='password'
+          type='password'
           value={password}
           placeholder='Password'
           onChange={this.handleChange}
@@ -48,6 +50,7 @@ class Register extends React.Component {
           label='Password Confirmation'
           required
           name='passwordConfirmation'
+          type='password'
           value={passwordConfirmation}
           placeholder='Password Confirmation'
           onChange={this.handleChange}
