@@ -1,7 +1,7 @@
 # Instructions
 
 # Cloning
-1. Clone the repo with `git@github.com:srsmith0/rails-react-auth-starter.git (New Project Name)`
+1. Clone the repo with `git clone git@github.com:srsmith0/rails-react-auth-starter.git (New Project Name)`
 2. Remove the origin
   `git remote rm origin`
 3. Create a new repo on GitHub and add new origin
