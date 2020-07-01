@@ -17,3 +17,6 @@
 1. `cd(Project Name)/client`
 2. Run `yarn`
 3. Run `yarn start` 
+
+#Final
+1. Delete the README from the new project.
