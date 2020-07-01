@@ -18,5 +18,5 @@
 2. Run `yarn`
 3. Run `yarn start` 
 
-#Final
+Final
 1. Delete the README from the new project.
